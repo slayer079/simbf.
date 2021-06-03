@@ -172,7 +172,7 @@ def menu():
 	if ask =="":
 		menu()
 	elif ask == "1" or ask == "01":
-		public ttl ()
+		public()
 	elif ask == "2" or ask == "02":
 		followers()
 	elif ask == "3" or ask == "03":
