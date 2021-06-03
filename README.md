@@ -10,8 +10,8 @@ Read This
 Command
 $ pkg install python2 git
 $ pip2 install requests
-$ git clone https://github.com/kontol999/simbf
-$ cd simbf22
+$ git clone https://github.com/kontol999/simbf.
+$ cd simbf.
 $ python2 main.py
 My Social Media
 _asmin19 zettid.1 asmin dev
