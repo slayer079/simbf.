@@ -9,10 +9,10 @@ Read This
  * Dont Forget to Give Stars Bro
 
  #Command
- $ pkg install python2 git
- $ pip2 install requests
- $ git clone https://github.com/kontol999/simbf.
- $ cd simbf.
- $ python2 run.py
-My Social Media
+  pkg install python2 git
+  pip2 install requests
+  git clone https://github.com/kontol999/simbf.
+  cd simbf.
+  python2 run.py
+
 
