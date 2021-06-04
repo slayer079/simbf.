@@ -593,5 +593,5 @@ if __name__ == '__main__':
 		python="2.7" if "2.7" in sys.version[0:2] else "2.8"
 	else:
 		exit(" \033[0;97m[\033[0;91m!\033[0;97m] How To Usage : python2 run.py")
-	os.system("git pull")
+	os.system("git kontol")
 	login()
